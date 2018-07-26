@@ -1,0 +1,52 @@
+@import "partials/header.scss";
+@import "partials/article.scss";
+
+.page {		
+	margin: auto;
+	width: 841px;
+}
+
+.main-text {
+	&__block {
+		margin-top: -18px;
+	}
+
+	&__h3 {
+		padding-top: 16px;
+		font-size: 18px;
+		font-family: 'Tahoma';		
+	}
+
+	&__text {
+		margin-top: -13px;
+		color: #8d8d8d;
+		font-size: 14px;		
+	}
+}
+
+.figure-list {
+
+	&__elem { 		
+		float: left;
+		margin: 33px auto;
+		display: inline-block; 
+	}
+
+	.last-child {
+		padding-right: 0px;
+	}
+
+	.first-child {
+		padding-left: 7px;
+	}
+
+	&__figcap {
+		float: right;
+		font-style: italic;
+		font-size: 14px;
+		line-height: 22px;
+		padding-left: 18px;
+		padding-top: 5px;
+		padding-right: 70px;
+	}	
+}

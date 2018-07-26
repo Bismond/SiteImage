@@ -1,0 +1,28 @@
+{
+  "name": "siteimage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "",
+    "browser-sync": "",
+    "gulp-autoprefixer": "",
+    "gulp-imagemin": "",
+    "gulp-minify-css": "",
+    "gulp-rigger": "",
+    "gulp-sass": "",
+    "gulp-sourcemaps": "",
+    "gulp-uglify": "",
+    "gulp-watch": "",
+    "imagemin-pngquant": "",
+    "rimraf": ""
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
